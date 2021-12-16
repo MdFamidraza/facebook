@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF_8">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box box-sizing: border-box;
+}       
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1o0vh;
+    background-color: white;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left, .right, form{
+display: flex;
+flex-direction: column;
+align-content: center;
+align-items: center;
+justify-content: center;
+}
+.left{
+    width: 500px ;
+    align-items:flex-start;
+}
+.left h1{
+font-family: "facebook letter faces";
+font-size: 70px;
+color: blue;
+text-align: center;
+}
+.left p{
+    font-size: 30px;
+    height: 100px;
+    font-family: "Roboto condensed", sans-serif;
+    border-radius: 10px;
+}
+.right{
+    width: 400px;
+
+}
+form{
+   
+    background-color: white;
+   border-radius: 10px;
+    width: 400px;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,2),0 6px 20px 0 rgb(0,0,0,0.19);
+}
+form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+   outline:none;
+   font-size: 16px;
+}
+.login{
+    background-color: #1877f2;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: 'arial';
+    font-weight: 700;
+    transition: 0.5s;
+}
+.login:hover{
+background-color: #4257b2;
+}
+.forget{
+    margin: 15px;
+    text-decoration: none;
+    color: #1877f2;
+    font-family: 'arial';
+    font-size: 14px;
+
+}
+      .signup{
+          background-color: #42b72a;
+          padding: 15px;
+          text-align: center;
+          text-decoration:none;
+          border-radius: 5px;
+          color: white;
+          font-size: 17px;
+          font-family: 'arial';
+          font-weight: 600;
+          transition: 00.5s;
+      }
+      .right p{
+         font-family: 'arial';
+         font-size: 15px;
+      }
+      </style>
+    </head>
+    <body>
+               <div class="container">
+        <div class="left">
+        <h1 >facebook</h1><br><br><br>
+        <p style="text-align: center;">Facebook helps you to connect and<br> share with the people in your life </p><br><br>
+    <div class="right">
+        <form action="container">
+      <input type="text" placeholder="email adress or phone number "><br>
+      <input type="password" placeholder="password">
+      <a href ="" class="login">Login</a>
+      <a href="" class="forget">forgotten password?</a>
+      <div class="signup">
+          <a href="class"="signupbtn">Creat New Account</a>
+   
+        </form>
+    </div>
+    <div  class="right p">
+        <a href=""class="right p">Creata new page for businees,celebrity or brand </a> 
+    </div>
+    </body>
+</html>
